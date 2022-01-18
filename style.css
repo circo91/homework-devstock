@@ -128,9 +128,7 @@ body {
   width: 100%;
   color: #EDEBF0;
 }
-/* hr{
-    color: #EDEBF0;
-} */
+
 
 .log-in {
     color: #64606a;
@@ -149,14 +147,17 @@ body {
 }
 
 .login-img-in {
-    position: relative;
+
     display: flex;
     flex-direction: column;
 }
 
 .img {
-    position: relative;
+   
     display: flex;
+}
 
-
+.img-in{
+  width: 100px;
+  height: 110px;
 }
