@@ -135,6 +135,8 @@ body {
     letter-spacing: 0.5px;
 }
 
+/* sidebar-image */
+
 .image {
     background: rgba(40, 70, 66, 0.4);
     mix-blend-mode: multiply;
