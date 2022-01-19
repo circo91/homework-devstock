@@ -156,7 +156,7 @@ body {
     position: relative;
     z-index: 2;
     top: -680px;
-    left: 410px;
+    left: 290px;
 	}
 	
 	.img {
@@ -184,3 +184,19 @@ body {
  	  width: 280px;
 	  height: 95px;   
   }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .login-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .name {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
