@@ -1,202 +1,211 @@
 body {
-	  background-color: white;
-	  font-family: Rubik, sans-serif;
-	  margin: 0;
-    overflow-x: hidden;
-	}
+	background-color: white;
+	font-family: Rubik, sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+}
 	
-	.login-section {
-	  display: flex;
-	  width: 100vw;
-	  height: 790px;
-	
-	}
-	
-	.login-form {
-	    display: flex;
-	    flex-direction: column;
-	    padding: 120px 80px;
-	    flex: 1;
-	}
-	
-	.titlle {
-	    color: #190F27;
-	    font-size: 24px;
-	    line-height: 28px;
-	    padding-top: 18px;
-	    letter-spacing: 1.9px;
-	
-	}
-	
-	.button-section {
-	  display: flex;
-	  flex-direction: column;
-	}
-	
-	.sign-in-button {
-	    border: 1.5px solid #284642;
-	    box-sizing: border-box;
-	    border-radius: 7px;
-	    display: flex;
-	    align-items: center;
-	    justify-content: center;
-	    margin-top: 16px;
-	    font-weight: 700;
-	    font-size: 14px;
-	    color: #190F27;
-	    background-color: white;
-	    padding: 10px 0;
-	}
-	
-	.text-divider {
-	  display: flex;
-	  justify-content: space-around;
-	  padding: 32px 0px;
-	}
-	
-	.span {
-	  font-style: normal;
-	  font-weight: normal;
-	  font-size: 16px;
-	  line-height: 23px;
-	}
-	
-	.divider {
-	  width: 25%;
-	  color: #EDEBF0;
-	}
-	
-	.facebook {
-	  width: 27px;
-	  height: 27px;
-	  padding-right: 24px;
-	}
-	
-	.input-group {
-	  display: flex;
-	  flex-direction: column;
-	  align-content: space-between;
-	}
+.main-contener {
+	display: flex;
+	width: 100vw;
+	height: 1080px;
 
-	.name {
-	  position: relative;
-	  display: flex;
-	  justify-content: space-between;
-	}
-	
-	/* inputy */
-	
-	.input-in {
-	  position: relative;
-	}
-	
-	.input-in input {
-	  border: 1px solid #EDEBF0;
-	  border-radius: 7px;
-	  height: 50px;
-	  margin: 10px 0;
-	  width: 100%;
-	  font-size: 15px;
-	}
-	
-	.input-in label {
-	    position: absolute;
-	    left: 10px;
-	    top: 4px;
-	    padding: 0 5px;
-	    background-color: white;
-	    color: #64606A;
-	    font-size: 12px;
-	    font-weight: 300;
-	}
-	
-	.sign-in-free {
-	  border-radius: 7px;
-	  height: 50px;
-	  margin-top: 24px;
-	  background-color: #284642;
-	  font-weight: 700;
-	  font-size: 18px;
-	  color: white;
-	  letter-spacing: 1px;
-	}
-	
-	.hr {
-	  margin: 14px 0;
-	  width: 100%;
-	  color: #EDEBF0;
-	}
-	
-	
-	.log-in {
-	    color: #64606a;
-	    letter-spacing: 0.5px;
-	}
-	
-	/* sidebar-image */
-	.sidebar {
-    flex: 2;
-  }
+}
 
-	.image {
-	    background: rgba(40, 70, 66, 0.4);
-	    mix-blend-mode: multiply;
-      height: 980px;
-	}
+.login-section {
+	display: flex;
+	flex-direction: column;
+    padding: 10% 10% 5%;
+	flex: 1;
+}
 
-	.login-img {    
-	    mix-blend-mode: multiply;
-	    width: 100%;
-	    height: 100%;
-	}
-  	
-	.login-img-in {
+.titlle {
+	color: #190F27;
+	font-size: 24px;
+	line-height: 28px;
+	padding-top: 18px;
+	letter-spacing: 1.9px;
+
+}
+
+.button-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.sign-in-button {
+    border: 1.5px solid #284642;
+    box-sizing: border-box;
+    border-radius: 7px;
     display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: 2;
-    top: -680px;
-    left: 290px;
-	}
-	
-	.img {
-	    display: flex;
-	}
-	
-	.img-in-c{
-	  width: 130px;
-	  height: 137px;
-	}
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #190F27;
+    background-color: white;
+    padding: 10px 0;
+}
 
-  .img-in-o{
-	  width: 147px;
-	  height: 147px;
-    padding-left: 30px;
-	}
+.text-divider {
+	/* position: relative; */
+	border: 1.5px solid #EDEBF0;
+	border-radius: 7px;
+	height: 0.01px;
+	margin: 32px 0px;
+}
 
-  .img-in-w {
- 	  width: 290px;
-	  height: 130px;
-    padding: 41px 0 36px;  
+.span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	position: absolute;
+	background: white;
+	top: 35%;
+	left: 35%;
+	padding: 0 2%;
+}
+
+
+.facebook {
+	width: 27px;
+	height: 27px;
+	padding-right: 24px;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.name {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* form-input */
+
+.input-in {
+	position: relative;
+}
+
+.input-in input {
+	border: 1px solid #EDEBF0;
+	border-radius: 7px;
+	height: 50px;
+	margin: 10px 0;
+	width: 100%;
+	font-size: 15px;
+}
+
+.input-in label {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	padding: 0 5px;
+	background-color: white;
+	color: #64606A;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.sign-in-free {
+	border-radius: 7px;
+	height: 50px;
+	margin-top: 24px;
+	background-color: #284642;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.hr {
+	margin: 14px 0;
+	width: 100%;
+	color: #EDEBF0;
+}
+
+
+.log-in {
+	color: #64606a;
+	letter-spacing: 0.5px;
+}
+	
+/* sidebar-image */
+
+.sidebar {
+    flex: 2;
+	background-image: url(./images/background.png) ;
+	background-size: cover;
   }
 
-  .img-in-wo {
- 	  width: 280px;
-	  height: 95px;   
-  }
+.background {
+	background: rgba(40, 70, 66, 0.4);
+	opacity: 1;
+		height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-  /* Extra small devices (phones, 600px and down) */
+.login-img-in {
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.img {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img-in-c{
+    width: 50%;
+    height: 24vh;
+	}
+
+.img-in-o{
+	width: 50%;
+	height: 23vh;
+	padding-left: 10%;
+}
+
+.img-in-w {
+	width: 100%;
+	height: 22vh;
+    padding: 10% 0; 
+}
+
+.img-in-wo {
+	width: 100%;
+	height: 20vh;   
+}
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .login-section {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+.main-contener {
+	display: flex;
+	flex-direction: column-reverse;
+	}
 
-  .name {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-  }
-  
+.sidebar{
+	flex: 1;
+}
+
+.login-section {
+	flex: 2;
+}
+.name {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	}
+
 }
