@@ -19,102 +19,6 @@ body {
 	flex: 1;
 }
 
-.titlle {
-	color: #190F27;
-	font-size: 24px;
-	line-height: 28px;
-	padding-top: 18px;
-	letter-spacing: 1.9px;
-
-}
-
-.button-section {
-	display: flex;
-	flex-direction: column;
-}
-
-.sign-in-button {
-    border: 1.5px solid #284642;
-    box-sizing: border-box;
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 16px;
-    font-weight: 700;
-    font-size: 14px;
-    color: #190F27;
-    background-color: white;
-    padding: 10px 0;
-}
-.divider {
-	position: relative;
-}
-
-.text-divider {
-	
-	border: 1.5px solid #EDEBF0;
-	border-radius: 7px;
-	height: 0.01px;
-	margin: 32px 0px;
-}
-
-.span {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 23px;
-	position: absolute;
-	background: white;
-	top: 35%;
-	left: 35%;
-	padding: 0 2%;
-}
-
-
-.facebook {
-	width: 27px;
-	height: 27px;
-	padding-right: 24px;
-}
-
-.input-group {
-	display: flex;
-	flex-direction: column;
-	align-content: space-between;
-}
-
-.name {
-	display: flex;
-	justify-content: space-between;
-}
-
-/* form-input */
-
-.input-in {
-	position: relative;
-}
-
-.input-in input {
-	border: 1px solid #EDEBF0;
-	border-radius: 7px;
-	height: 50px;
-	margin: 10px 0;
-	width: 100%;
-	font-size: 15px;
-}
-
-.input-in label {
-	position: absolute;
-	left: 10px;
-	top: 4px;
-	padding: 0 5px;
-	background-color: white;
-	color: #64606A;
-	font-size: 12px;
-	font-weight: 300;
-}
-
 .sign-in-free {
 	border-radius: 7px;
 	height: 50px;
@@ -137,12 +41,12 @@ body {
 	color: #64606a;
 	letter-spacing: 0.5px;
 }
-	
+
 /* sidebar-image */
 
 .sidebar {
     flex: 2;
-	background-image: url(./images/background.png) ;
+	background-image: url(../images/background.png) ;
 	background-size: cover;
   }
 
