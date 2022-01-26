@@ -8,17 +8,39 @@ body {
 .main-contener {
 	display: flex;
 	width: 100vw;
-	height: 1080px;
-
 }
 
 .login-section {
 	display: flex;
 	flex-direction: column;
-    padding: 10% 10% 5%;
+    padding: 10% 5% 0;
 	flex: 1;
+	margin-bottom: 12%;
 }
 
+.title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -0.06px;
+}
+
+.text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	color: #64606A;
+}
+
+.email {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	color: #64606A;
+}
 .sign-in-free {
 	border-radius: 7px;
 	height: 50px;
@@ -46,13 +68,12 @@ body {
 
 .sidebar {
     flex: 2;
-	background-image: url(../images/background.png) ;
+	background-image: url(../images/image62.png) ;
 	background-size: cover;
   }
 
 .background {
-	background: rgba(40, 70, 66, 0.4);
-	opacity: 1;
+	background: rgba(40, 70, 66, 0.5);
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -62,7 +83,8 @@ body {
 .login-img-in {
 	display: flex;
 	flex-direction: column;
-
+	width: 30%;
+    height: 45%;
 }
 
 .img {
@@ -72,24 +94,24 @@ body {
 
 .img-in-c{
     width: 50%;
-    height: 24vh;
+    height: 15vh;
 	}
 
 .img-in-o{
-	width: 50%;
-	height: 23vh;
+    width: 55%;
+    height: 15vh;
 	padding-left: 10%;
 }
 
 .img-in-w {
 	width: 100%;
-	height: 22vh;
+	height: 17vh;
     padding: 10% 0; 
 }
 
 .img-in-wo {
 	width: 100%;
-	height: 20vh;   
+	height: 16vh;   
 }
 
 /* Extra small devices (phones, 950px and down) */
