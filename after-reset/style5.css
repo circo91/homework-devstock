@@ -80,27 +80,27 @@ body {
 
 .img-in-c{
     width: 50%;
-    height: 24vh;
+    height: 17vh;
 	}
 
 .img-in-o{
 	width: 50%;
-	height: 23vh;
+	height: 18vh;
 	padding-left: 10%;
 }
 
 .img-in-w {
 	width: 100%;
-	height: 22vh;
+	height: 17vh;
     padding: 10% 0; 
 }
 
 .img-in-wo {
 	width: 100%;
-	height: 20vh;   
+	height: 14vh;   
 }
 
-/* Extra small devices (phones, 950px and down) */
+/* medium small devices (tablet, 950px and down) */
 @media only screen and (max-width: 950px) {
 
 .main-contener {
@@ -115,11 +115,9 @@ body {
 
 .login-section {
 	flex: 2;
+	margin: 0;
+	padding: 0 5% 5%;
 }
-.name {
-	display: flex;
-	flex-direction: column;
-	}
 
 .background {
 	display: flex;
@@ -129,6 +127,55 @@ body {
 
 .login-img-in {
 	margin: 5% 5%;
+
+}
+.img-in-c{
+    width: 50%;
+    height: 12vh;
+	}
+
+.img-in-o{
+	width: 50%;
+	height: 13vh;
+	padding-left: 5%;
+}
+
+.img-in-w {
+	width: 100%;
+	height: 12vh;
+    padding: 5% 0; 
+}
+
+.img-in-wo {
+	width: 100%;
+	height: 12vh;   
+}
+}
+
+/* Extra small devices (phone, 400px and down) */
+@media only screen and (max-width: 400px) {
+
+
+.img-in-c{
+    width: 50%;
+    height: 8vh;
+	}
+
+.img-in-o{
+	width: 50%;
+	height: 8vh;
+	padding-left: 5%;
+}
+
+.img-in-w {
+	width: 100%;
+	height: 8vh;
+    padding: 5% 0; 
+}
+
+.img-in-wo {
+	width: 100%;
+	height: 7vh;   
 }
 
 }
