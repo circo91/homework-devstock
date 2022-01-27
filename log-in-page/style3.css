@@ -45,9 +45,23 @@ body {
     color: #190F27;
     background-color: white;
     padding: 10px 0;
+	letter-spacing: 1px;
 }
+
+.facebook {
+	width: 27px;
+	height: 27px;
+	padding-right: 24px;
+}
+
 .divider {
-	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
 }
 
 .text-divider {
@@ -56,36 +70,13 @@ body {
 	border-radius: 7px;
 	height: 0.01px;
 	margin: 32px 0px;
-}
-
-.span {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 23px;
-	position: absolute;
-	background: white;
-	top: 35%;
-	left: 35%;
-	padding: 0 2%;
-}
-
-
-.facebook {
-	width: 27px;
-	height: 27px;
-	padding-right: 24px;
+	width: 25%;
 }
 
 .input-group {
 	display: flex;
 	flex-direction: column;
 	align-content: space-between;
-}
-
-.name {
-	display: flex;
-	justify-content: space-between;
 }
 
 /* form-input */
@@ -116,7 +107,8 @@ body {
 
 .checkbox {
 	display: flex;
-	justify-content: space-between
+	justify-content: space-between;
+	white-space: nowrap;
 }
 
 .sign-in-free {
@@ -137,11 +129,18 @@ body {
 }
 
 
-.log-in {
+.log-in,.forgot {
 	color: #64606a;
 	letter-spacing: 0.5px;
-}
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	}
 	
+.log-in {
+	padding: 3%;
+}
+
 /* sidebar-image */
 
 .sidebar {
@@ -176,7 +175,7 @@ body {
 
 .img-in-o{
 	width: 50%;
-	height: 23vh;
+	height: 24vh;
 	padding-left: 10%;
 }
 
